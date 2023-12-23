@@ -1,0 +1,35 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  color: #666;
+}
+
+Link {
+  /* color: #007bff; */
+  color: crimson;
+  text-decoration: none;
+  margin-top: 10px;
+  display: block;
+}
+
+/* Add animation to the link */
+Link:hover {
+  color: darkred;
+  transition: color 0.3s ease-in-out;
+}
+
+.Link {
+  color: crimson;
+  text-decoration: none;
+  margin-top: 10px;
+  display: block;
+}
+
